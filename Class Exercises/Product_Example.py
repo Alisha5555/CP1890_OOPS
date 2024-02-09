@@ -12,3 +12,4 @@ class Product:
 
     def getDiscountprice(self):
         return self.price - self.getDiscountAmount
+
