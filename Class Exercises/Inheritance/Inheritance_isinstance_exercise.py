@@ -3,7 +3,7 @@ from Inheritance_isinstance_objects import Product, Book, Movie
 
 def get_products():
     return (Product("Stanley 13 Ounce Wood Hammer", 5.489, 10),
-            Movie("The Holy Grail - DVD", 5.3, 10))
+            Movie("The Holy Grail - DVD", 5.3, 10, 2024))
 
 
 def show_product(product):
