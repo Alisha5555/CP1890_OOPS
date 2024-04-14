@@ -2,7 +2,7 @@ import sqlite3
 
 class TaskDB:
     def __init__(self):
-        self.conn = sqlite3.connect('../Question3_Supporting_Files/task_list_db.sqlite')
+        self.conn = sqlite3.connect('Question3_Supporting_Files/task_list_db.sqlite')
         self.cursor = self.conn.cursor()
         self.create_table()
 
